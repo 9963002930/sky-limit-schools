@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sky Limit School</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background:url('school-campus.jpg') no-repeat center center/cover;
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+            position: relative;
+        }
+        header::after {
+            content: '';
+            background: rgba(0, 0, 0, 0.5);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
+        header h1 {
+            position: relative;
+            z-index: 2;
+            font-size: 3em;
+        }
+        header p {
+            position: relative;
+            z-index: 2;
+            font-size: 1.2em;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #f4f4f4;
+            padding-bottom: 5px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .gallery img {
+            width: calc(33.333% - 20px);
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .updates {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .update-item {
+            margin-bottom: 15px;
+        }
+        .update-item h3 {
+            margin: 0 0 10px;
+        }
+        .update-item p {
+            margin: 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sky Limit School</h1>
+        <p>Education for a brighter future</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="Admissions.html">Admissions</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Welcome to Sky Limit School</h2>
+            <p>Sky Limit School is dedicated to providing a holistic education that fosters the intellectual, social, and emotional development of our students. Our experienced faculty and innovative teaching methods ensure that every student reaches their full potential. Explore our website to learn more about our programs, admissions process, and the vibrant community that makes our school unique.</p>
+        </section>
+        <section>
+            <h2>Photo Gallery</h2>
+            <div class="gallery">
+                <img src="school.jpg" alt="School Building">
+                <img src="Classroom.jpg" alt="Classroom">
+                <img src="Children.jpg" alt="Students">
+                <img src="Library.jpg" alt="Library">
+                <img src="Sportsground.jpg" alt="Sports Ground">
+                <img src="Lab.jpg" alt="Science Lab">
+            </div>
+        </section>
+        <section>
+            <h2>Latest Updates</h2>
+            <div class="updates">
+                <div class="update-item">
+                    <h3>New Exam Schedule Announced</h3>
+                    <p>We are pleased to announce the new exam schedule for the upcoming academic year. Please visit the Academics page for detailed information.</p>
+                </div>
+                <div class="update-item">
+                    <h3>Annual Sports Day</h3>
+                    <p>Our Annual Sports Day will be held on July 15th. Students are encouraged to participate and showcase their athletic talents. More details will be provided soon.</p>
+                </div>
+                <div class="update-item">
+                    <h3>Parent-Teacher Meeting</h3>
+                    <p>The next Parent-Teacher Meeting is scheduled for August 20th. We look forward to discussing your child's progress and addressing any concerns.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Sky Limit School. All rights reserved.</p>
+    </footer>
+</body>
+</html>
